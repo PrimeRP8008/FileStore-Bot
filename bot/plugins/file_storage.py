@@ -33,8 +33,7 @@ async def handle_file(client: Client, message: Message):
     link = f"https://t.me/{apper.username}?start={code}"
     try:
         link2 = requests.get(
-            f"https://shrinkearn.com/api?api=9178c57f51d3630419b582621853e7c0713e439b&url={link}"
-        ).json()["shortenedUrl"]
+            f"https://t.me/{apper.username}?start={code}" 👈
     except:
         link2 = link
     keyboard = InlineKeyboardMarkup(
