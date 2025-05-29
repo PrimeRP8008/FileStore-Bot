@@ -6,9 +6,9 @@ dotenv.load_dotenv()
 
 
 class Settings(BaseSettings):
-    BOT_TOKEN: str = Field("", env="BOT_TOKEN")
-    API_ID: int = Field(0, env="API_ID")
-    API_HASH: str = Field("", env="API_HASH")
+    BOT_TOKEN: str = Field("", env="8106002966:AAHAoXV9jNofRwD7gYKFsWlBOt2aRigqOrs")
+    API_ID: int = Field(0, env="27419615")
+    API_HASH: str = Field("", env="2f4b181296f0a2615a85471a1c72df44")
     MONGO_URI: str = Field(
         "",
         env="MONGO_URI",
@@ -19,4 +19,4 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-settings.ADMIN_USER_IDS.append(5190902724)
+settings.ADMIN_USER_IDS.append(1534632634)
